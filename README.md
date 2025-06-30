@@ -1,26 +1,47 @@
-# 📝 ToDo App Avanzada en React
+# 📝 Todo Tareas App 
 
-Una aplicación de tareas moderna y funcional creada con React + Vite + TailwindCSS.
+Aplicación de tareas creada con **React** y **Tailwind CSS**. Permite agregar, editar, eliminar, marcar como completadas y filtrar tareas. Incluye **modo oscuro**, **persistencia en localStorage** y diseño responsive.
 
-## Características
+## 🌐 Demo
 
-- Crear, completar y eliminar tareas
-- Filtros: todas, completadas, pendientes
-- Modo oscuro con Tailwind
-- Guardado local en `localStorage`
-- Diseño responsive y limpio
+🔗 [Ver la App en Vercel](https://todoapp-beta-inky.vercel.app/) 
 
-## Instalación
+---
+
+## ✨ Funcionalidades
+
+- ➕ Agregar nuevas tareas
+- ✅ Marcar como completadas
+- ✏️ Editar tareas existentes
+- 🗑️ Eliminar tareas
+- 🔍 Filtrar por todas / completadas / pendientes
+- 🌙 Modo oscuro automático o manual
+- 💾 Guardado local con localStorage
+- 📱 Responsive para móvil y escritorio
+
+---
+
+## 🛠️ Tecnologías
+
+- React
+- Tailwind CSS
+- localStorage
+- Vite (opcional, si usaste Vite)
+- Heroicons (íconos)
+
+---
+
+## 📦 Instalación local
 
 ```bash
+# 1. Cloná el repositorio
+git clone https://github.com/tu-usuario/todo-app-react.git
+
+# 2. Entrá al proyecto
+cd todo-app-react
+
+# 3. Instalá las dependencias
 npm install
+
+# 4. Iniciá la app
 npm run dev
-```
-
-## Deploy
-
-Puedes desplegar esta app fácilmente en [Vercel](https://vercel.com).
-
-## Autor
-
-Desarrollado por [Tu Nombre]
